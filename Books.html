@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Bookstore Books</title>
+    <style>
+        header {
+background-color: #f2f2f2;
+padding: 10px;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+
+nav ul li {
+margin-right: 20px;
+}
+
+nav ul li:last-child {
+margin-right: 0;
+}
+
+nav ul li a {
+color: #333;
+text-decoration: none;
+font-weight: bold;
+text-transform: uppercase;
+padding: 5px 10px;
+border-radius: 5px;
+}
+
+nav ul li a:hover {
+background-color: #333;
+color: #fff;
+}
+
+h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .books {
+      padding: 20px;
+    }
+
+    h2 {
+      font-size:xx-large;
+      text-align: center;
+    }
+
+    .category {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      display: flex;
+    }
+
+    .category-image {
+      flex: 1;
+    }
+
+    .category-image img {
+      height: auto;
+      max-width: 100%;
+      border-radius: 5px;
+    }
+
+    .category-content {
+      flex: 2;
+      padding-left: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .category h3 {
+      margin: 0;
+      font-size: 24px;
+    }
+
+    .category p {
+      color: #777;
+      margin-bottom: 10px;
+    }
+
+    .category .book-images {
+      display: flex;
+      margin-top: 10px;
+    }
+
+    .category .book-images img {
+      width: 80px;
+      height: auto;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="Home.html">Home</a>
+            </li>
+            <li>
+                <a href="Events.html">Events</a>
+            </li>
+            <li> 
+                <a href="About us.html">About</a>
+            </li>
+            <li>
+                <a href="Books.html">Books</a>
+            </li>
+            <li>
+                <a href="Contact us.html">Contact</a>
+            </li>
+           
+            <li>
+                <a href="Register.html">Register</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="books">
+        <h2>Categories of Books</h2>
+        <div class="category">
+          <div class="category-image">
+            <img src="images/2.jpeg" alt="Fiction Books">
+          </div>
+          <div class="category-content">
+            <h3>Fiction</h3>
+            <p>Explore a world of imagination with our collection of captivating fiction books.</p>
+            <div class="book-images">
+              <img src="images/1.jpeg" alt="Book 1">
+              <img src="images/3.jpeg" alt="Book 2">
+              <img src="images/4.jpeg" alt="Book 3">
+            </div>
+          </div>
+        </div>
+    
+        <div class="category">
+          <div class="category-image">
+            <img src="images/7.jpeg" alt="Non-Fiction Books">
+          </div>
+          <div class="category-content">
+            <h3>Non-Fiction</h3>
+            <p>Expand your knowledge and learn something new with our non-fiction books.</p>
+            <div class="book-images">
+              <img src="images/6.jpeg" alt="Book 4">
+              <img src="images/8.jpeg" alt="Book 5">
+              <img src="images/9.jpeg" alt="Book 6">
+            </div>
+          </div>
+        </div>
+    
+        <div class="category">
+          <div class="category-image">
+            <img src="images/10.jpeg" alt="Children's Books">
+          </div>
+          <div class="category-content">
+            <h3>Children's</h3>
+            <p>Discover delightful stories for children of all ages in our children's book section.</p>
+            <div class="book-images">
+              <img src="images/11.jpeg" alt="Book 7">
+              <img src="images/12.jpeg" alt="Book 8">
+              <img src="images/13.jpeg" alt="Book 9">
+            </div>
+          </div>
+        </div>
+        <div class="category">
+            <div class="category-image">
+              <img src="images/14.jpeg" alt="Mystery's Books">
+            </div>
+            <div class="category-content">
+              <h3>Mystery's</h3>
+              <p>Discover delightful stories for children of all ages in our Mystery's book section.</p>
+              <div class="book-images">
+                <img src="images/15.jpeg" alt="Book 7">
+                <img src="images/16.jpeg" alt="Book 8">
+                <img src="images/17.jpeg" alt="Book 9">
+              </div>
+            </div>
+          </div>
+    
+    </div>
+</body>
+</html>

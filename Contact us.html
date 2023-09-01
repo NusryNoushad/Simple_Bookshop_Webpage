@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC Bookstore Contact us</title>
+    <style>
+        header {
+background-color: #f2f2f2;
+padding: 10px;
+}
+
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+}
+
+nav ul li {
+margin-right: 20px;
+}
+
+nav ul li:last-child {
+margin-right: 0;
+}
+
+nav ul li a {
+color: #333;
+text-decoration: none;
+font-weight: bold;
+text-transform: uppercase;
+padding: 5px 10px;
+border-radius: 5px;
+}
+
+nav ul li a:hover {
+background-color: #333;
+color: #fff;
+}
+
+ h1 {
+text-align: center;
+margin-bottom: 20px;
+    }
+fieldset{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+
+  </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="Home.html">Home</a>
+            </li>
+            <li>
+                <a href="Events.html">Events</a>
+            </li>
+            <li> 
+                <a href="About us.html">About</a>
+            </li>
+            <li>
+                <a href="Books.html">Books</a>
+            </li>
+            <li>
+                <a href="Contact us.html">contact</a>
+            </li>
+            <li>
+                <a href="Register.html">Register</a>
+            </li>
+            
+        </ul>
+    </nav>
+
+    <h1>Contact Us</h1>
+   <fieldset>
+    <h2>Address</h2>
+    <address>
+      ABC Bookstore,<br> 
+      No:262/A Main Street,<br>
+      Kandy City.<br>
+      </address>
+
+    <h2>Phone Number</h2>
+    <p>+94 776 113 345</p>
+
+    <h2>Email</h2>
+    <p>abcbookstore@gmail.com</p>
+
+    <h2>Contact Form</h2>
+    <form action="submit_contact_form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+    </fieldset>
+   
+</body>
+</html>
